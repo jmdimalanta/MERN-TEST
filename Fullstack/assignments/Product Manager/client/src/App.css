@@ -27,3 +27,7 @@ header{
   border: none;
   border-radius: 10px;
 }
+
+.oneProduct-component{
+  margin: 27vh auto;
+}
