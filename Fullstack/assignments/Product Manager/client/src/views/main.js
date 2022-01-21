@@ -13,6 +13,7 @@ const Main = (props)=>{
     return(
         <div>
             <CreateProduct productList = {productList} setProductList = {setProductList}/>
+            <hr/>
             <DisplayAll productList = {productList} setProductList = {setProductList}/>
         </div>
     );

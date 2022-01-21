@@ -4,6 +4,7 @@ import './App.css';
 import OneProduct from './components/OneProduct';
 import {Router} from '@reach/router';
 import Main from './views/main';
+import UpdateProduct from './components/UpdateProduct';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <DisplayAll path = "/"/> */}
         <Main path = "/" />
         <OneProduct path = "/products/:id"/>
+        <UpdateProduct path ="/products/edit/:id" />
       </Router>
     </div>
   );

@@ -22,12 +22,18 @@ header{
   border-radius: 30px;
 }
 
-.submit-input{
+.submit-input, button{
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
+  margin: 5px;
 }
 
 .oneProduct-component{
   margin: 27vh auto;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(82, 0, 4);
 }
